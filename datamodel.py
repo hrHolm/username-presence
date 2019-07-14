@@ -21,7 +21,7 @@ class Website:
             return False
 
 
-# Child classes are necessary, since other websites have unique ways of replying with an error
+# Child classes are necessary, since other websites might have unique ways of replying with an error
 
 
 class Steam(Website):
